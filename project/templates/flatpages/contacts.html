@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+    {{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <div style="font-style: italic">
+        <h2>{{ flatpage.title }}</h2>
+        <hr>
+        <h3>Our contacts:</h3>
+    </div>
+    <i>{{ flatpage.content }}</i>
+{% endblock content %}
